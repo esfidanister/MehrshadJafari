@@ -1,0 +1,420 @@
+{
+  "common": {
+    "brand": "JAFARI",
+    "doctorName": "Dr. Seyed Mehrshad Jafari",
+    "specialty": "Oral & Maxillofacial Surgeon",
+    "medicalCodeLabel": "Medical council ID",
+    "languageSwitch": "فارسی",
+    "loading": "Loading…",
+    "errorGeneric": "Something went wrong. Please try again.",
+    "readMore": "Read more",
+    "viewAll": "View all",
+    "back": "Back",
+    "close": "Close",
+    "submit": "Submit",
+    "sending": "Sending…",
+    "required": "Required",
+    "optional": "Optional",
+    "yes": "Yes",
+    "no": "No",
+    "learnMore": "Learn more",
+    "bookNow": "Book appointment",
+    "callClinic": "Call clinic",
+    "source": "Source",
+    "educationalOnly": "Educational content — not a medical diagnosis.",
+    "languageMenu": "Language"
+  },
+  "nav": {
+    "home": "Home",
+    "treatments": "Treatments",
+    "doctor": "About the surgeon",
+    "reviews": "Patient reviews",
+    "journal": "Journal",
+    "gallery": "Gallery",
+    "column": "Surgeon's notes",
+    "briefing": "World brief",
+    "contact": "Contact",
+    "appointment": "Appointments",
+    "anatomy": "Anatomy",
+    "menuOpen": "Open menu",
+    "menuClose": "Close menu",
+    "directory": "Directory",
+    "groupCare": "Clinic",
+    "groupLibrary": "Reading",
+    "consult": "Consult"
+  },
+  "hero": {
+    "eyebrow": "Oral & maxillofacial surgery",
+    "headline": "Wisdom teeth, implants, and jaw surgery",
+    "subheadline": "I keep surgery calm and precise, and I explain the path in plain language before anything else.",
+    "ctaPrimary": "Book a visit",
+    "ctaSecondary": "Explore treatments"
+  },
+  "intro": {
+    "eyebrow": "Clinical approach",
+    "title": "The exam comes before the decision",
+    "description": "A plan is made only after I see you and the images. I do not suggest what you do not need.",
+    "pillar1Title": "Thorough evaluation",
+    "pillar1Text": "Clinical exam with appropriate imaging for safe planning.",
+    "pillar2Title": "Focused surgery",
+    "pillar2Text": "From wisdom teeth to implants and oral lesions—with the least intervention, and only when it is clinically appropriate.",
+    "pillar3Title": "Informed follow-up",
+    "pillar3Text": "Post-op instructions and review visits tailored to your needs."
+  },
+  "anatomy": {
+    "eyebrow": "Anatomy & awareness",
+    "title": "Understand your mouth and jaws",
+    "description": "An educational guide to the mandible: bone form, teeth, and the inferior alveolar nerve. Not a patient scan and not a surgical plan.",
+    "hint": "These pictures are educational. They are not for rotation or diagnosis.",
+    "disclaimer": "This display is educational and does not replace your diagnostic imaging.",
+    "labels": {
+      "mandible": "Mandible",
+      "wisdomTooth": "Wisdom tooth",
+      "nerve": "Inferior alveolar nerve"
+    }
+  },
+  "treatments": {
+    "eyebrow": "Services",
+    "title": "Specialty treatments",
+    "description": "A concise overview of core services. Details and FAQs live on each treatment page.",
+    "faqTitle": "Frequently asked questions",
+    "cta": "Treatment details",
+    "groupSurgery": "Surgery",
+    "groupImplant": "Implants",
+    "groupJaw": "Jaw",
+    "groupPathology": "Oral pathology",
+    "items": {
+      "wisdom-tooth-surgery": {
+        "title": "Wisdom tooth surgery",
+        "summary": "Assessment and surgery for impacted or problematic wisdom teeth."
+      },
+      "dental-implants": {
+        "title": "Dental implants",
+        "summary": "Replacement of missing teeth with implant fixtures and crowns."
+      },
+      "orthognathic-surgery": {
+        "title": "Orthognathic surgery",
+        "summary": "Jaw correction coordinated with orthodontic care."
+      },
+      "oral-pathology": {
+        "title": "Oral pathology",
+        "summary": "Evaluation of persistent sores, cysts, and oral-maxillofacial lesions."
+      }
+    }
+  },
+  "doctor": {
+    "eyebrow": "Surgeon",
+    "title": "Dr. Seyed Mehrshad Jafari",
+    "subtitle": "Oral & maxillofacial surgeon",
+    "bioLead": "I keep surgery calm and precise, and I explain the path in plain language before anything else.",
+    "educationTitle": "Education",
+    "achievementsTitle": "Honors & activities",
+    "booksTitle": "Publications",
+    "booksCollaborativeNote": "Some of these titles are translations or shared work.",
+    "locationsTitle": "The clinic",
+    "locationConfirmNote": "For a visit, use the form on this site or the booking links.",
+    "podcastTitle": "Media",
+    "podcastCta": "Listen to the conversation",
+    "instagramCta": "Instagram",
+    "credentialsDisclaimer": "A treatment plan is decided only after an examination and a look at the images.",
+    "eventsTitle": "Congresses and live surgery",
+    "eventDetail": "Event details",
+    "watchFilm": "Watch the film",
+    "approachTitle": "Precise, plain, and present",
+    "approachLead": "Every treatment starts by hearing you, then the exam and the right images. I explain the options in plain language so the decision stays yours.",
+    "approach1Title": "Planning with images",
+    "approach1Text": "When an implant or jaw surgery is being considered, CBCT helps choose position and angle. The image is not yet a final plan.",
+    "approach2Title": "A smaller incision, when it fits",
+    "approach2Text": "If it is clinically suitable, I choose the less invasive path. That is not the same for every mouth.",
+    "approach3Title": "Safety at each step",
+    "approach3Text": "Sterilisation and a review of general health come before surgery. They are part of the work.",
+    "approach4Title": "Care after treatment",
+    "approach4Text": "You leave with written instructions, and a clear way to reach the clinic if something unexpected happens."
+  },
+  "reviews": {
+    "eyebrow": "Patient experience",
+    "title": "Reviews",
+    "description": "Notes patients wrote on Nobat.ir.",
+    "aggregateLabel": "Average rating",
+    "countLabel": "Total reviews",
+    "sourceLabel": "From Nobat.ir",
+    "importedDataNote": "Patients wrote these notes themselves on Nobat.ir.",
+    "patientExperienceDisclaimer": "Every patient's experience is different.",
+    "topicImplant": "Implants",
+    "topicWisdom": "Wisdom teeth",
+    "topicCyst": "Cyst",
+    "topicGeneral": "General"
+  },
+  "journal": {
+    "eyebrow": "Journal",
+    "title": "Patient education",
+    "description": "Short reads about treatment, written for patients.",
+    "readTime": "{minutes} min read",
+    "category": "Category",
+    "latest": "Latest articles",
+    "columnTitle": "Surgeon's notes",
+    "columnText": "Notes I write myself.",
+    "briefingTitle": "World sources",
+    "briefingText": "A short look at trusted medical sources. This is not a diagnosis or a prescription."
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Clinic contact",
+    "description": "Send the form, or use the booking links, if you want a visit or have a question.",
+    "homeLead": "The address and hours are here. Open the appointment page to request a visit, or the contact page to write.",
+    "addressLabel": "Address",
+    "phoneLabel": "Phone",
+    "hoursLabel": "Hours",
+    "mapTitle": "Directions",
+    "formTitle": "Message the clinic",
+    "formNote": "The clinic reads this message and will get back to you. This form is not an examination.",
+    "email": "Email",
+    "openMap": "Open in Google Maps",
+    "socialLabel": "Social",
+    "conflictNote": "If you want an in-person visit, send the form and the clinic will arrange it."
+  },
+  "appointment": {
+    "eyebrow": "Appointments",
+    "title": "Schedule a visit",
+    "description": "Choose a service, a day, and a time. After you send it, the clinic calls to confirm.",
+    "platformNobat": "Nobat.ir",
+    "platformPaziresh24": "Paziresh24",
+    "platformDrdr": "DrDr",
+    "unverifiedPlatformNote": "If a link does not open, use the request form.",
+    "openProfile": "Open profile",
+    "orCall": "The clinic number for scheduling is here.",
+    "requestTitle": "Request a visit",
+    "firstVisitTitle": "What to bring to your first visit",
+    "firstVisitText": "ID, medication list, and prior dental imaging if available."
+  },
+  "footer": {
+    "tagline": "The Art of Surgery. Precision in Every Detail.",
+    "rights": "All rights reserved.",
+    "privacy": "Privacy",
+    "terms": "Terms of use",
+    "disclaimer": "This website is for education and does not replace an in-person medical visit.",
+    "follow": "Follow us",
+    "clinic": "Clinic",
+    "pages": "Pages"
+  },
+  "form": {
+    "name": "Full name",
+    "phone": "Phone number",
+    "email": "Email",
+    "message": "Your message",
+    "treatmentInterest": "Topic of interest",
+    "selectPlaceholder": "Select",
+    "consent": "I agree to be contacted using the details provided.",
+    "validation": {
+      "nameRequired": "Please enter your name.",
+      "nameMin": "Name must be at least 2 characters.",
+      "phoneRequired": "Please enter your phone number.",
+      "phoneInvalid": "Phone number is not valid.",
+      "emailInvalid": "Email is not valid.",
+      "messageRequired": "Please enter a message.",
+      "messageMin": "Message must be at least 10 characters.",
+      "consentRequired": "Consent is required."
+    },
+    "success": "Your request is saved. This message is not an examination.",
+    "error": "The request was not stored. Try again, or use a booking platform."
+  },
+  "seo": {
+    "siteName": "JAFARI | Dr. Mehrshad Jafari",
+    "defaultDescription": "Oral & maxillofacial surgeon in Tehran—wisdom teeth, implants, orthognathic surgery, and oral pathology.",
+    "pages": {
+      "home": {
+        "title": "Dr. Mehrshad Jafari | Oral & Maxillofacial Surgeon",
+        "description": "The Art of Surgery. Precision in Every Detail. Wisdom tooth surgery, implants, and jaw surgery in Tehran."
+      },
+      "treatments": {
+        "title": "Treatments | Oral & jaw surgery",
+        "description": "Wisdom tooth surgery, dental implants, orthognathic surgery, and oral pathology."
+      },
+      "doctor": {
+        "title": "About Dr. Seyed Mehrshad Jafari",
+        "description": "Education, books, and scientific programs of Dr. Seyed Mehrshad Jafari, oral and maxillofacial surgeon."
+      },
+      "reviews": {
+        "title": "Patient reviews",
+        "description": "Notes patients wrote on Nobat.ir about wisdom tooth surgery and implants."
+      },
+      "journal": {
+        "title": "Patient education journal",
+        "description": "Short educational articles on wisdom teeth, implants, and oral health."
+      },
+      "contact": {
+        "title": "Contact & clinic address",
+        "description": "Clinic address, hours, and how to book a visit."
+      },
+      "appointment": {
+        "title": "Online booking",
+        "description": "This page has a visit request form and links to Nobat.ir and the other platforms. The clinic calls before the visit is confirmed. The form is not an examination."
+      },
+      "anatomy": {
+        "title": "Oral & jaw anatomy",
+        "description": "Educational guide to the mandible. Not a patient scan or a surgical plan."
+      },
+      "consult": {
+        "title": "Ask the clinic | Dr. Jafari",
+        "description": "Educational questions on implants, wisdom teeth, and care after surgery. Not an examination."
+      },
+      "track": {
+        "title": "Track a visit | Dr. Jafari",
+        "description": "See the status of a visit request with your mobile number and tracking code."
+      },
+      "gallery": {
+        "title": "Gallery | Dr. Jafari",
+        "description": "Educational clinic pictures. Not patient photos and not a promise of results."
+      },
+      "briefing": {
+        "title": "World brief | Dr. Jafari",
+        "description": "Short educational notes from trusted sources. Not a diagnosis or a prescription."
+      },
+      "column": {
+        "title": "Surgeon's notes | Dr. Jafari",
+        "description": "Notes published by Dr. Seyed Mehrshad Jafari."
+      }
+    }
+  },
+  "implant": {
+    "eyebrow": "Digital implant",
+    "title": "The implant, before any cut",
+    "description": "Drag the marker. One side is the teaching view of the bone. The other is the same model, plainer.",
+    "badge": "Digital implant",
+    "guided": "Guided surgery",
+    "scan": "CBCT · 3D · 47",
+    "precision": "0.2 mm",
+    "mark": "OMFS",
+    "hint": "Move the marker. This picture is not your radiograph.",
+    "sideTeach": "Teaching view",
+    "sidePlain": "Plain view",
+    "disclaimer": "A teaching model, not a patient scan, and not a substitute for an exam.",
+    "imageAlt": "Teaching model of a jaw and an implant, not a patient image"
+  },
+  "consult": {
+    "eyebrow": "Day and night desk",
+    "title": "Ask the clinic",
+    "description": "Write a general question. The answer is educational and does not replace an exam.",
+    "note1": "Answers are educational and do not replace an examination.",
+    "note2": "Do not enter identity details such as a national ID.",
+    "note3": "For a visit, use the booking page.",
+    "emergencyTitle": "Emergency",
+    "emergencyBody": "For heavy bleeding, fast swelling of the face or neck, trouble breathing, or trouble swallowing, call 115 or go to the nearest emergency department.",
+    "panelTitle": "Clinic desk",
+    "panelStatus": "Online · educational reply",
+    "newChat": "New conversation",
+    "placeholder": "Write your question…",
+    "disclaimer": "The desk can be wrong. For a treatment decision, talk with the surgeon.",
+    "fallback": "This is better asked at the exam. For a time, open the booking page.",
+    "thinking": "Writing…",
+    "greeting": "Hello. Ask about treatment, care after surgery, or booking.",
+    "send": "Send",
+    "q1": "Is implant surgery painful?",
+    "a1": "The surgery is done under local anaesthetic, so you do not feel pain during it. Afterwards there may be a few days of discomfort and swelling, managed with the prescribed medicine and a cold compress.",
+    "q2": "How long does implant treatment take?",
+    "a2": "From surgery to the crown it usually takes two to six months. A bone graft or sinus lift makes it longer. The exact timing is set at the exam.",
+    "q3": "Do all wisdom teeth have to be removed?",
+    "a3": "No. A wisdom tooth that is healthy, fully erupted, and possible to clean can stay. The decision uses symptoms, the radiograph, and the risk to the neighbouring tooth.",
+    "q4": "What should I do in the first 24 hours after an extraction?",
+    "a4": "Hold gauze with gentle pressure, do not spit, and do not use a straw. Eat soft food and place a cold compress on the cheek in short turns. If heavy bleeding continues, call the same day."
+  },
+  "booking": {
+    "stepKind": "Visit type",
+    "kindExam": "Examination and treatment plan",
+    "kindPostop": "Visit after surgery",
+    "kindConsult": "Consultation",
+    "kindSurgery": "Surgery time",
+    "stepService": "Reason for coming",
+    "dayClosed": "This day is closed on the clinic schedule.",
+    "slotFull": "This time is already taken.",
+    "stepWhen": "Day and time",
+    "stepYou": "Your details",
+    "unsure": "Not sure / examination",
+    "dateLabel": "Date",
+    "timeLabel": "Time",
+    "pickDay": "Choose a day on the calendar first.",
+    "today": "Today",
+    "mobileHint": "The clinic confirms the visit on this number.",
+    "reason": "Reason for the visit",
+    "reasonHint": "Keep it short, and leave out identity details.",
+    "summary": "Summary",
+    "free": "Sending the request is free.",
+    "confirmCall": "The visit is confirmed only after the clinic calls.",
+    "cancelNote": "If you change your mind, tell the clinic early.",
+    "submit": "Send the request",
+    "trackLink": "Track a request",
+    "careLink": "Treatment file, photos, and a message to the clinic",
+    "sentTitle": "Request saved",
+    "sentBody": "Keep this code. The visit is not confirmed until the clinic calls.",
+    "codeLabel": "Tracking code",
+    "prevMonth": "Previous month",
+    "nextMonth": "Next month",
+    "error": "The request was not saved. Check the day, time, name, and number.",
+    "paused": "Online requests are paused. Use a platform above, or call the clinic.",
+    "phoneLimit": "This number already has an open request. Track that request, or wait for the clinic to call."
+  },
+  "track": {
+    "eyebrow": "Appointments",
+    "title": "Track a visit",
+    "description": "Enter the mobile number and the tracking code.",
+    "mobile": "Mobile number",
+    "code": "Tracking code",
+    "submit": "Check status",
+    "empty": "The result will appear here.",
+    "missing": "No request matched this number and code.",
+    "status": "Status",
+    "statusNew": "Saved. We have not called yet",
+    "statusConfirmed": "Arranged after a call",
+    "statusCancelled": "Cancelled",
+    "statusDone": "Done",
+    "statusArrived": "Arrival recorded",
+    "statusNoshow": "Did not come at the arranged time",
+    "service": "Subject",
+    "when": "Preferred time"
+  },
+  "galleryPage": {
+    "eyebrow": "Clinic wall",
+    "title": "Educational pictures",
+    "description": "These frames are teaching images from this website. They are not patient photos and they do not show anyone’s result.",
+    "note": "A photo the clinic marks as public in the desk appears on this page once the site is on the host.",
+    "close": "Close",
+    "open": "View larger",
+    "jaw": "Educational jaw model",
+    "wisdom": "Wisdom tooth teaching image",
+    "implant": "Implant teaching image",
+    "ortho": "Jaw surgery teaching image",
+    "portrait": "The surgeon’s portrait",
+    "all": "All",
+    "filterLabel": "Categories",
+    "catModel": "Teaching model",
+    "catPortrait": "Portrait",
+    "catCare": "Treatment"
+  },
+  "briefingPage": {
+    "eyebrow": "World sources",
+    "title": "A short look at trusted sources",
+    "description": "Each note is an educational summary. It is not a diagnosis, not a prescription, and not the surgeon’s research paper.",
+    "step1": "A public source",
+    "step1Text": "Chosen from a trusted source, not invented.",
+    "step2": "Plain summary",
+    "step2Text": "Written for a patient. It does not replace the original article.",
+    "step3": "Physician review",
+    "step3Text": "It stays off the site until the surgeon approves it.",
+    "empty": "Nothing is published in this language yet. The patient journal is open.",
+    "journal": "Patient journal"
+  },
+  "columnPage": {
+    "eyebrow": "Surgeon's notes",
+    "title": "Writing from the surgeon",
+    "description": "This page is for notes published from the clinic desk. Until one is published, there is no list here.",
+    "step1": "The surgeon's own text",
+    "step1Text": "These are not ready-made education articles. The surgeon writes them.",
+    "step2": "Plain language",
+    "step2Text": "Written for a patient to read, not as a case file.",
+    "step3": "After publication",
+    "step3Text": "A note appears here only after it is published from the desk.",
+    "empty": "No note is published in this language yet.",
+    "journal": "Patient journal",
+    "briefing": "World brief"
+  }
+}

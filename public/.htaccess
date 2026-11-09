@@ -1,0 +1,128 @@
+# ---------------------------------------------------------------------------
+# JAFARI - Apache config for a Next.js static export (cPanel / public_html)
+# Upload together with the contents of ./out
+# ---------------------------------------------------------------------------
+
+Options -Indexes
+DirectoryIndex index.html
+DirectorySlash On
+AddDefaultCharset UTF-8
+
+# --- Custom 404 (multi-page static site: use 404.html, NOT an index fallback)
+ErrorDocument 404 /404.html
+
+# --- Redirects & rewrites --------------------------------------------------
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # Force HTTPS. The certificate must already be active or browsers will fail this redirect.
+  # Leave ACME challenges on HTTP so the certificate can be issued and renewed.
+  RewriteCond %{HTTPS} off
+  RewriteCond %{HTTP:X-Forwarded-Proto} !https
+  RewriteCond %{REQUEST_URI} !^/\.well-known/
+  RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+  # Optional: force non-www (replace example.com, uncomment to enable)
+  # RewriteCond %{HTTP_HOST} ^www\.example\.com$ [NC]
+  # RewriteRule ^ https://example.com%{REQUEST_URI} [L,R=301]
+
+  # Clinic desk: PHP on cPanel. Static Next pages stay as index.html.
+  RewriteRule ^cms/data/ - [F,L]
+  RewriteRule ^cms/bootstrap\.php$ - [F,L]
+  RewriteRule ^manage/?$ /manage/index.php [L,QSA]
+  RewriteRule ^care/?$ /care/index.php [L,QSA]
+  RewriteRule ^(fa|en|ar|zh)/column/?$ /cms/column.php?locale=$1 [L,QSA]
+  RewriteRule ^(fa|en|ar|zh)/column/([a-z0-9-]{1,80})/?$ /cms/column.php?locale=$1&slug=$2 [L,QSA]
+  RewriteRule ^(fa|en|ar|zh)/briefing/?$ /cms/briefing.php?locale=$1 [L,QSA]
+  RewriteRule ^(fa|en|ar|zh)/briefing/([a-z0-9-]{1,80})/?$ /cms/briefing.php?locale=$1&slug=$2 [L,QSA]
+  RewriteRule ^(fa|en|ar|zh)/gallery/?$ /cms/gallery.php?locale=$1 [L,QSA]
+
+  # Editable copy is applied on the way out. Files with an extension stay static.
+  RewriteCond %{REQUEST_URI} !\.[A-Za-z0-9]{1,8}$
+  RewriteRule ^(fa|en|ar|zh)(?:/(.*))?$ /cms/front.php?locale=$1&path=$2 [L,QSA]
+
+  # Site root -> default locale (no middleware on static hosting)
+  RewriteRule ^$ /fa/ [R=302,L]
+
+  # Force trailing slash on directories (matches trailingSlash: true)
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteCond %{REQUEST_URI} !/$
+  RewriteRule ^(.*)$ /$1/ [R=301,L]
+</IfModule>
+
+# --- Compression -----------------------------------------------------------
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/plain text/css text/xml
+  AddOutputFilterByType DEFLATE application/javascript text/javascript application/json
+  AddOutputFilterByType DEFLATE application/xml application/xhtml+xml image/svg+xml
+  AddOutputFilterByType DEFLATE font/ttf font/otf application/vnd.ms-fontobject
+</IfModule>
+
+# --- MIME types ------------------------------------------------------------
+<IfModule mod_mime.c>
+  AddType application/javascript .js .mjs
+  AddType font/woff2 .woff2
+  AddType image/svg+xml .svg
+  AddType image/webp .webp
+  AddType image/avif .avif
+  AddType application/manifest+json .webmanifest
+</IfModule>
+
+# --- Caching ---------------------------------------------------------------
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresDefault "access plus 1 hour"
+
+  # HTML must revalidate so new deployments show up immediately
+  ExpiresByType text/html "access plus 0 seconds"
+  ExpiresByType application/xml "access plus 1 day"
+  ExpiresByType text/xml "access plus 1 day"
+  ExpiresByType text/plain "access plus 1 day"
+
+  ExpiresByType text/css "access plus 1 year"
+  ExpiresByType application/javascript "access plus 1 year"
+  ExpiresByType text/javascript "access plus 1 year"
+  ExpiresByType font/woff2 "access plus 1 year"
+  ExpiresByType image/svg+xml "access plus 1 month"
+  ExpiresByType image/png "access plus 1 month"
+  ExpiresByType image/jpeg "access plus 1 month"
+  ExpiresByType image/webp "access plus 1 month"
+  ExpiresByType image/avif "access plus 1 month"
+  ExpiresByType image/x-icon "access plus 1 month"
+</IfModule>
+
+<IfModule mod_headers.c>
+  # Hashed build assets never change
+  <FilesMatch "\.(js|css|woff2)$">
+    <If "%{REQUEST_URI} =~ m#^/_next/static/#">
+      Header set Cache-Control "public, max-age=31536000, immutable"
+    </If>
+  </FilesMatch>
+
+  <FilesMatch "\.html$">
+    Header set Cache-Control "no-cache, must-revalidate"
+  </FilesMatch>
+
+  <FilesMatch "\.(webp|avif|png|jpe?g|gif|svg|ico)$">
+    Header set Cache-Control "public, max-age=2592000"
+  </FilesMatch>
+
+  # Light security headers
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set X-Frame-Options "SAMEORIGIN"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+  Header always set Permissions-Policy "camera=(), microphone=(), geolocation=()"
+  # This host only. includeSubDomains is omitted until every subdomain is known to be HTTPS.
+  Header always set Strict-Transport-Security "max-age=15552000"
+
+  # Raw HTML only. PHP pages send their own nonce policy and must not inherit this one.
+  <FilesMatch "\.(html|htm)$">
+    Header always set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self'; media-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'; worker-src 'self' blob:"
+  </FilesMatch>
+</IfModule>
+
+# --- Block dotfiles (but keep .well-known for SSL/ACME) ---------------------
+<IfModule mod_rewrite.c>
+  RewriteCond %{REQUEST_URI} !^/\.well-known/
+  RewriteRule (^|/)\.(?!well-known) - [F,L]
+</IfModule>

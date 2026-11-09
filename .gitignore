@@ -39,3 +39,15 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# clinic desk database and upload package
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+*.sqlite.previous
+/jafari-cpanel.zip
+/public/cms/data/location.txt
+/public/cms/data/install.token
+/public/cms/data/backups/
+/public/cms/data/care/*
+!/public/cms/data/care/.htaccess

@@ -1,0 +1,420 @@
+{
+  "common": {
+    "brand": "JAFARI",
+    "doctorName": "赛义德·梅尔沙德·贾法里医生",
+    "specialty": "口腔颌面外科医师",
+    "medicalCodeLabel": "医师注册号",
+    "languageSwitch": "فارسی",
+    "loading": "正在加载…",
+    "errorGeneric": "出错了。请再试一次。",
+    "readMore": "继续阅读",
+    "viewAll": "查看全部",
+    "back": "返回",
+    "close": "关闭",
+    "submit": "提交",
+    "sending": "正在发送…",
+    "required": "必填",
+    "optional": "可选",
+    "yes": "是",
+    "no": "否",
+    "learnMore": "了解更多",
+    "bookNow": "预约",
+    "callClinic": "联系诊室",
+    "source": "来源",
+    "educationalOnly": "教育内容，不是诊断。",
+    "languageMenu": "语言"
+  },
+  "nav": {
+    "home": "首页",
+    "treatments": "治疗",
+    "doctor": "关于医生",
+    "reviews": "患者评价",
+    "journal": "文章",
+    "gallery": "图库",
+    "column": "医生手记",
+    "briefing": "文献简报",
+    "contact": "联系",
+    "appointment": "预约",
+    "anatomy": "解剖",
+    "menuOpen": "打开菜单",
+    "menuClose": "关闭菜单",
+    "directory": "目录",
+    "groupCare": "诊所",
+    "groupLibrary": "阅读",
+    "consult": "咨询"
+  },
+  "hero": {
+    "eyebrow": "口腔颌面外科",
+    "headline": "智齿、种植和颌骨手术",
+    "subheadline": "我把手术做得平静、精确，并在动手之前用明白的话讲清路径。",
+    "ctaPrimary": "预约就诊",
+    "ctaSecondary": "了解治疗"
+  },
+  "intro": {
+    "eyebrow": "治疗方式",
+    "title": "先检查，再决定",
+    "description": "方案要在见到您和影像之后才定。不需要的，我不建议。",
+    "pillar1Title": "仔细评估",
+    "pillar1Text": "临床检查加上合适的影像，为了更安全地计划。",
+    "pillar2Title": "只做该做的手术",
+    "pillar2Text": "从智齿到种植和口腔病变，尽量少干预，而且只在临床上合适时。",
+    "pillar3Title": "清楚的随访",
+    "pillar3Text": "术后说明和复查，按您的需要安排。"
+  },
+  "anatomy": {
+    "eyebrow": "解剖与理解",
+    "title": "把口腔和下颌看清楚",
+    "description": "下颌骨的教育指南：骨的形态、牙齿和下牙槽神经。不是患者扫描，也不是手术方案。",
+    "hint": "这些图用于教学，不用于诊断。",
+    "disclaimer": "这个展示是教育性的，不能代替您的诊断影像。",
+    "labels": {
+      "mandible": "下颌骨",
+      "wisdomTooth": "智齿",
+      "nerve": "下牙槽神经"
+    }
+  },
+  "treatments": {
+    "eyebrow": "治疗",
+    "title": "专科治疗",
+    "description": "诊室主要工作的简短介绍。细节和常见问题在每个治疗页。",
+    "faqTitle": "常见问题",
+    "cta": "治疗细节",
+    "groupSurgery": "手术",
+    "groupImplant": "种植",
+    "groupJaw": "颌骨",
+    "groupPathology": "口腔病理",
+    "items": {
+      "wisdom-tooth-surgery": {
+        "title": "智齿手术",
+        "summary": "评估并处理阻生或有问题的智齿。"
+      },
+      "dental-implants": {
+        "title": "种植牙",
+        "summary": "用种植体和牙冠替换缺失的牙。"
+      },
+      "orthognathic-surgery": {
+        "title": "正颌手术",
+        "summary": "与正畸配合的颌骨矫正。"
+      },
+      "oral-pathology": {
+        "title": "口腔病理",
+        "summary": "评估长期不愈的溃疡、囊肿和口腔颌面病变。"
+      }
+    }
+  },
+  "doctor": {
+    "eyebrow": "医生",
+    "title": "赛义德·梅尔沙德·贾法里医生",
+    "subtitle": "口腔颌面外科医师",
+    "bioLead": "我把手术做得平静、精确，并在动手之前用明白的话讲清路径。",
+    "educationTitle": "学历",
+    "achievementsTitle": "工作与荣誉",
+    "booksTitle": "著作",
+    "booksCollaborativeNote": "其中有些是翻译或合作。",
+    "locationsTitle": "诊室",
+    "locationConfirmNote": "就诊请用本站表格或预约链接。",
+    "podcastTitle": "影像与音频",
+    "podcastCta": "收听对话",
+    "instagramCta": "Instagram",
+    "credentialsDisclaimer": "治疗方案只在检查和看过影像之后决定。",
+    "eventsTitle": "会议与现场手术",
+    "eventDetail": "活动详情",
+    "watchFilm": "观看影片",
+    "approachTitle": "精确、明白、一直在",
+    "approachLead": "每次治疗都先听您说，再检查、再看合适的影像。我用明白的话讲选项，决定权在您。",
+    "approach1Title": "用影像来计划",
+    "approach1Text": "在考虑种植或颌骨手术时，CBCT 帮助选择位置和角度。影像还不是最终方案。",
+    "approach2Title": "能小时，切口就小",
+    "approach2Text": "如果临床上合适，我会选创伤更小的路径。这不是每张嘴都一样。",
+    "approach3Title": "每一步都顾安全",
+    "approach3Text": "消毒和全身情况的核对在手术之前。这是工作的一部分。",
+    "approach4Title": "治疗后还在",
+    "approach4Text": "您会带走书面护理说明。如果出现意外，联系诊室的方式是清楚的。"
+  },
+  "reviews": {
+    "eyebrow": "患者体验",
+    "title": "评价",
+    "description": "患者在 Nobat.ir 上自己写下的话。",
+    "aggregateLabel": "平均评分",
+    "countLabel": "评价数量",
+    "sourceLabel": "来自 Nobat.ir",
+    "importedDataNote": "这些话是患者自己写的。",
+    "patientExperienceDisclaimer": "每位患者的体验都不一样。",
+    "topicImplant": "种植",
+    "topicWisdom": "智齿",
+    "topicCyst": "囊肿",
+    "topicGeneral": "综合"
+  },
+  "journal": {
+    "eyebrow": "期刊",
+    "title": "患者教育",
+    "description": "给患者看的短文，讲治疗路径。",
+    "readTime": "阅读 {minutes} 分钟",
+    "category": "分类",
+    "latest": "最新文章",
+    "columnTitle": "医生手记",
+    "columnText": "我自己写的笔记。",
+    "briefingTitle": "世界文献",
+    "briefingText": "可信医学来源的短摘。不是诊断，也不是处方。"
+  },
+  "contact": {
+    "eyebrow": "联系",
+    "title": "联系诊室",
+    "description": "想就诊或有问题，请提交表格，或使用预约链接。",
+    "homeLead": "地址和门诊时间在这里。预约或留言请打开对应的页面。",
+    "addressLabel": "地址",
+    "phoneLabel": "电话",
+    "hoursLabel": "时间",
+    "mapTitle": "路线",
+    "formTitle": "给诊室留言",
+    "formNote": "诊室会读这条消息并回复。此表不是检查。",
+    "email": "邮箱",
+    "openMap": "在 Google 地图中打开",
+    "socialLabel": "社交",
+    "conflictNote": "如果想来诊室，请提交表格，诊室会安排时间。"
+  },
+  "appointment": {
+    "eyebrow": "预约",
+    "title": "预约就诊",
+    "description": "选择项目、日期和时间。提交后，诊室打电话确认。",
+    "platformNobat": "Nobat.ir",
+    "platformPaziresh24": "Paziresh24",
+    "platformDrdr": "DrDr",
+    "unverifiedPlatformNote": "如果链接打不开，请用申请表。",
+    "openProfile": "打开页面",
+    "orCall": "协调用的诊室电话在这里。",
+    "requestTitle": "预约申请",
+    "firstVisitTitle": "第一次来带什么？",
+    "firstVisitText": "身份证件、用药清单，以及已有的牙科影像。"
+  },
+  "footer": {
+    "tagline": "手术的技艺，在于每一处精确。",
+    "rights": "版权所有。",
+    "privacy": "隐私",
+    "terms": "使用条款",
+    "disclaimer": "本网站用于教育，不能代替当面就诊。",
+    "follow": "关注",
+    "clinic": "诊所",
+    "pages": "页面"
+  },
+  "form": {
+    "name": "姓名",
+    "phone": "电话",
+    "email": "邮箱",
+    "message": "留言",
+    "treatmentInterest": "想了解的主题",
+    "selectPlaceholder": "请选择",
+    "consent": "我同意诊室用这些资料与我联系。",
+    "validation": {
+      "nameRequired": "请填写姓名。",
+      "nameMin": "姓名至少两个字符。",
+      "phoneRequired": "请填写电话。",
+      "phoneInvalid": "电话号码不正确。",
+      "emailInvalid": "邮箱不正确。",
+      "messageRequired": "请填写留言。",
+      "messageMin": "留言至少十个字符。",
+      "consentRequired": "需要同意。"
+    },
+    "success": "申请已保存。这条消息不是检查。",
+    "error": "没有保存。请再试，或使用预约平台。"
+  },
+  "seo": {
+    "siteName": "JAFARI | 梅尔沙德·贾法里医生",
+    "defaultDescription": "德黑兰口腔颌面外科：智齿、种植、正颌和口腔病变。",
+    "pages": {
+      "home": {
+        "title": "梅尔沙德·贾法里医生 | 口腔颌面外科",
+        "description": "手术的技艺在于精确。德黑兰的智齿、种植和颌骨治疗。"
+      },
+      "treatments": {
+        "title": "治疗 | 口腔与颌骨手术",
+        "description": "智齿、种植、正颌、植骨、关节和骨折。"
+      },
+      "doctor": {
+        "title": "关于赛义德·梅尔沙德·贾法里医生",
+        "description": "贾法里医生的学历、著作和学术活动。"
+      },
+      "reviews": {
+        "title": "患者评价",
+        "description": "患者写下的智齿手术和种植体验。"
+      },
+      "journal": {
+        "title": "患者教育",
+        "description": "关于智齿、种植和口腔健康的短文。"
+      },
+      "contact": {
+        "title": "联系与诊室地址",
+        "description": "诊室地址、时间和预约方式。"
+      },
+      "appointment": {
+        "title": "在线预约",
+        "description": "可以在本页提交就诊申请，也可以通过 Nobat.ir 和其他平台预约。提交后不会立刻生效，诊室打电话确认后才算预约。申请表不能代替当面检查。"
+      },
+      "anatomy": {
+        "title": "口腔与颌骨解剖",
+        "description": "下颌的教育指南。不是患者扫描，也不是手术方案。"
+      },
+      "consult": {
+        "title": "咨询 | 贾法里医生",
+        "description": "关于种植、智齿和术后护理的教育性问答。不是检查。"
+      },
+      "track": {
+        "title": "查询预约 | 贾法里医生",
+        "description": "用手机号和查询码查看预约申请的状态。"
+      },
+      "gallery": {
+        "title": "图片 | 贾法里医生",
+        "description": "诊所的教学图片。不是患者照片，也不承诺治疗效果。"
+      },
+      "briefing": {
+        "title": "世界文献 | 贾法里医生",
+        "description": "可靠来源的教学摘要。不是诊断，也不是处方。"
+      },
+      "column": {
+        "title": "医生手记 | 贾法里医生",
+        "description": "贾法里医生亲自发布的笔记。"
+      }
+    }
+  },
+  "implant": {
+    "eyebrow": "数字化种植",
+    "title": "下刀之前的种植",
+    "description": "拖动标线。一边是骨的教学视图，另一边是同一个模型更朴素的样子。",
+    "badge": "数字化种植",
+    "guided": "导板手术",
+    "scan": "CBCT · 3D · 47",
+    "precision": "0.2 毫米",
+    "mark": "OMFS",
+    "hint": "移动标线。这不是您的影像。",
+    "sideTeach": "教学视图",
+    "sidePlain": "简洁视图",
+    "disclaimer": "这是教学模型，不是患者扫描，也不能代替检查。",
+    "imageAlt": "颌骨与种植体的教学模型，不是患者图像"
+  },
+  "consult": {
+    "eyebrow": "全天值班",
+    "title": "咨询",
+    "description": "写下一般性问题。回答用于教育，不能代替检查。",
+    "note1": "回答是教育性的，不能代替检查。",
+    "note2": "请不要填写身份证号等身份信息。",
+    "note3": "预约请使用预约页。",
+    "emergencyTitle": "紧急情况",
+    "emergencyBody": "如果大量出血、面部或颈部迅速肿胀、呼吸困难或吞咽困难，请拨打 115 或去最近的急诊。",
+    "panelTitle": "诊室助手",
+    "panelStatus": "在线 · 教育性回复",
+    "newChat": "新对话",
+    "placeholder": "写下您的问题…",
+    "disclaimer": "助手可能出错。治疗决定请与医生商量。",
+    "fallback": "这个问题更适合在检查时问。预约请打开预约页。",
+    "thinking": "正在写…",
+    "greeting": "您好。可以问治疗、术后护理或预约。",
+    "send": "发送",
+    "q1": "种植手术疼吗？",
+    "a1": "手术在局部麻醉下进行，过程中不会感到疼痛。之后几天可能有不适和肿胀，用医嘱药物和冷敷来控制。",
+    "q2": "种植治疗要多久？",
+    "a2": "从手术到牙冠通常要两到六个月。如果需要植骨或上颌窦提升，会更长。具体时间在检查时确定。",
+    "q3": "是不是所有智齿都要拔？",
+    "a3": "不是。健康、完全萌出、能清洁的智齿可以保留。决定要看症状、影像和对邻牙的风险。",
+    "q4": "拔牙后的头 24 小时做什么？",
+    "a4": "轻轻咬住纱布，不要吐口水，不要用吸管。吃软食，脸颊短时间冷敷。如果明显出血不停，请当天联系。"
+  },
+  "booking": {
+    "stepKind": "预约类型",
+    "kindExam": "检查和治疗计划",
+    "kindPostop": "术后复诊",
+    "kindConsult": "咨询",
+    "kindSurgery": "手术时间",
+    "stepService": "就诊事项",
+    "dayClosed": "这一天在诊室日程里是关闭的。",
+    "slotFull": "这个时间已经满了。",
+    "stepWhen": "日期和时间",
+    "stepYou": "您的资料",
+    "unsure": "还不确定 / 检查",
+    "dateLabel": "日期",
+    "timeLabel": "时间",
+    "pickDay": "请先在日历上选一天。",
+    "today": "今天",
+    "mobileHint": "诊室会用这个号码确认预约。",
+    "reason": "就诊原因",
+    "reasonHint": "写短一些，不要留身份信息。",
+    "summary": "摘要",
+    "free": "提交申请不收费。",
+    "confirmCall": "诊室打电话之后，预约才算确定。",
+    "cancelNote": "如果改变主意，请尽早告诉诊室。",
+    "submit": "提交申请",
+    "trackLink": "查询已提交的申请",
+    "careLink": "治疗档案、照片和给诊所的消息",
+    "sentTitle": "申请已保存",
+    "sentBody": "请保存这个代码。诊室打电话之前，预约还没有确定。",
+    "codeLabel": "查询码",
+    "prevMonth": "上个月",
+    "nextMonth": "下个月",
+    "error": "没有保存。请再看日期、时间、姓名和号码。",
+    "paused": "网站上的申请暂时关闭。请使用上方平台，或给诊室打电话。",
+    "phoneLimit": "这个号码已经有一个未完成的申请。请查询那一条，或等诊室来电。"
+  },
+  "track": {
+    "eyebrow": "预约",
+    "title": "查询预约",
+    "description": "输入手机号和查询码。",
+    "mobile": "手机号",
+    "code": "查询码",
+    "submit": "查看状态",
+    "empty": "结果会显示在这里。",
+    "missing": "没有找到与这个号码和代码相符的申请。",
+    "status": "状态",
+    "statusNew": "已保存，尚未致电",
+    "statusConfirmed": "电话后已安排",
+    "statusCancelled": "已取消",
+    "statusDone": "已完成",
+    "statusArrived": "已记录到诊",
+    "statusNoshow": "预约时间没有来",
+    "service": "事项",
+    "when": "希望的时间"
+  },
+  "galleryPage": {
+    "eyebrow": "诊所墙",
+    "title": "教学图片",
+    "description": "这些是本网站的教学图片。不是患者照片，也不展示任何人的治疗效果。",
+    "note": "诊所在后台标为公开的照片，会在网站上线后出现在这一页。",
+    "close": "关闭",
+    "open": "查看大图",
+    "jaw": "颌骨教学模型",
+    "wisdom": "智齿教学图",
+    "implant": "种植教学图",
+    "ortho": "颌骨手术教学图",
+    "portrait": "医生肖像",
+    "all": "全部",
+    "filterLabel": "分类",
+    "catModel": "教学模型",
+    "catPortrait": "肖像",
+    "catCare": "治疗"
+  },
+  "briefingPage": {
+    "eyebrow": "世界来源",
+    "title": "可靠来源的简短阅读",
+    "description": "每篇都是教学摘要。不是诊断，不是处方，也不是医生的研究论文。",
+    "step1": "公开来源",
+    "step1Text": "选自可靠来源，不是编造的。",
+    "step2": "白话摘要",
+    "step2Text": "写给患者，不能代替原文。",
+    "step3": "医师审阅",
+    "step3Text": "医生确认之前不会出现在网站上。",
+    "empty": "这个语言还没有发布内容。教学杂志可以阅读。",
+    "journal": "教学杂志"
+  },
+  "columnPage": {
+    "eyebrow": "医生手记",
+    "title": "医生自己写的文字",
+    "description": "这一页只放从后台发布的笔记。还没发布时，这里没有目录。",
+    "step1": "医生本人所写",
+    "step1Text": "这不是现成的教育文章。由医生自己写。",
+    "step2": "白话",
+    "step2Text": "写给患者阅读，不是病历报告。",
+    "step3": "发布之后",
+    "step3Text": "从后台发布之前，不会出现在这一页。",
+    "empty": "这个语言还没有发布笔记。",
+    "journal": "教学杂志",
+    "briefing": "世界文献"
+  }
+}

@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# JAFARI — Surgical Art & Precision
 
-## Getting Started
+Premium bilingual (FA/EN) personal-brand website for **Dr. Seyed Mehrshad Jafari**, Oral & Maxillofacial Surgeon.
 
-First, run the development server:
+- Next.js App Router · TypeScript · Tailwind CSS v4  
+- React Three Fiber cinematic mandible · GSAP-ready motion · Framer Motion · Lenis  
+- Static export for **cPanel / Apache** (no Node server required)
+
+## Quick start
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000/fa/](http://localhost:3000/fa/).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Build for cPanel
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+# optional: set your live domain before build (canonical + sitemap)
+# PowerShell:  $env:NEXT_PUBLIC_SITE_URL="https://your-domain.ir"
 
-## Learn More
+npm run build:cpanel
+```
 
-To learn more about Next.js, take a look at the following resources:
+Upload the **contents** of `out/` to `public_html`. See [DEPLOY-CPANEL.md](./DEPLOY-CPANEL.md).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Optional contact form mailto:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+$env:NEXT_PUBLIC_CONTACT_EMAIL="clinic@example.com"
+```
 
-## Deploy on Vercel
+## Routes
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+| Path | Description |
+|------|-------------|
+| `/fa/`, `/en/` | Homepage (3D hero + sections) |
+| `/fa/about`, `/en/about` | Doctor profile |
+| `/fa/services/...` | Treatments + detail pages |
+| `/fa/anatomy` | Interactive 3D anatomy |
+| `/fa/reviews` | Patient reviews (Nobat.ir sourced) |
+| `/fa/articles/...` | Educational journal |
+| `/fa/contact`, `/fa/appointment` | Contact & booking links |
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Content notes
+
+Professional claims, addresses and phone numbers are marked **reported / needs confirmation** where public sources conflict. Confirm with the doctor before publishing final credentials or clinic details.
+
+Instagram (reported): [@dr.s.m.jafari](https://www.instagram.com/dr.s.m.jafari/) · Medical code: **141130**
